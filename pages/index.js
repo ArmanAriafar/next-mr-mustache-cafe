@@ -2,9 +2,9 @@
 import Head from "next/head";
 
 //? components
-import Header from "../Components/HomePage/Header";
-import Products from "../Components/HomePage/Products";
-import Footer from "../Components/HomePage/Footer";
+import Header from "../components/HomePage/Header";
+import Products from "../components/HomePage/Products";
+import Footer from "../components/HomePage/Footer";
 
 //? component
 export default function HomePage() {
