@@ -11,7 +11,7 @@ export default function HomePage() {
     return (
         <>
             <Head>
-                <title>Mr. WhiteHat || Online CoffeeShop</title>
+                <title>Mr. Mustache || Online CoffeeShop</title>
             </Head>
             <Header />
             <main className="flex w-full flex-col items-center justify-center bg-white">

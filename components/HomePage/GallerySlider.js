@@ -29,22 +29,26 @@ export default function GallerySlider() {
             >
                 <SwiperSlide>
                     <img
-                        src={img1}
+                        src="/Slides/img1.jpg"
                         alt="img1"
                         data-swiper-parallax="-100"
                         className="min-w-[200px]"
                     />
-                    <img src={img2} alt="img2" data-swiper-parallax="-200" />
+                    <img
+                        src="/Slides/img2.png"
+                        alt="img2"
+                        data-swiper-parallax="-200"
+                    />
                 </SwiperSlide>
                 <SwiperSlide>
                     <img
-                        src={img3}
+                        src="/Slides/img3.png"
                         alt="img3"
                         data-swiper-parallax="-100"
                         className="min-w-[200px]"
                     />
                     <img
-                        src={img4}
+                        src="/Slides/img4.png"
                         alt="img4"
                         data-swiper-parallax="-200"
                         className="min-w-[350px]"
@@ -52,16 +56,20 @@ export default function GallerySlider() {
                 </SwiperSlide>
                 <SwiperSlide>
                     <img
-                        src={img5}
+                        src="/Slides/img5.png"
                         alt="img5"
                         data-swiper-parallax="-100"
                         className="min-w-[200px]"
                     />
-                    <img src={img6} alt="img6" data-swiper-parallax="-200" />
+                    <img
+                        src="/Slides/img6.png"
+                        alt="img6"
+                        data-swiper-parallax="-200"
+                    />
                 </SwiperSlide>
                 <SwiperSlide>
                     <img
-                        src={img7}
+                        src="/Slides/img7.png"
                         alt="img7"
                         data-swiper-parallax="-300"
                         className="max-w-[250px]"

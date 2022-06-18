@@ -32,7 +32,7 @@ export default function CartPage() {
             <header className="flex min-h-screen w-full flex-col items-center justify-start bg-hero pb-36">
                 <div className="flex w-full max-w-5xl flex-col items-center justify-center">
                     <div className="flex w-full items-center justify-between py-8 px-4">
-                        <h1 className="font-sans text-6xl font-bold text-white">
+                        <h1 className="font-sans text-4xl lg:text-6xl font-bold text-white">
                             Orders:
                         </h1>
                         <h6 className="font-sans text-4xl font-bold text-white">
@@ -146,7 +146,7 @@ export default function CartPage() {
                             </motion.main>
                         </div>
                     </div>
-                    {cart.length && (
+                    {cart.length ? (
                         <div className="mt-8 flex w-full max-w-sm flex-col items-center justify-center gap-y-4 lg:flex-row lg:gap-x-4">
                             <div className="flex w-2/3 flex-col items-center justify-center text-white lg:order-2 lg:w-1/2">
                                 <div>
@@ -161,7 +161,7 @@ export default function CartPage() {
                                 BUY
                             </button>
                         </div>
-                    )}
+                    ) : null}
                 </div>
             </header>
         </>
